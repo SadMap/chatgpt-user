@@ -1,6 +1,6 @@
 {
   "name": "chatgpt-user",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "lib/index.js",
   "module": "esm/index.js",
@@ -29,9 +29,12 @@
   },
   "homepage": "https://github.com/SadMap/chatgpt-user#readme",
   "dependencies": {
-    "node-fetch": "~3.3.0"
+    "jsdom": "^20.0.3",
+    "node-fetch": "~3.3.0",
+    "proxy-agent": "^5.0.0"
   },
   "devDependencies": {
+    "@types/jsdom": "^20.0.1",
     "@typescript-eslint/eslint-plugin": "~5.46.0",
     "@typescript-eslint/parser": "~5.46.0",
     "eslint": "~8.29.0",
